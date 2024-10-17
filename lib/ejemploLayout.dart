@@ -6,16 +6,27 @@ class EjemploLayout extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      
-      backgroundColor: Colors.red,
-      body: Container(
-        width: 100,
-        height: 500,
-        margin: EdgeInsets.symmetric(vertical: 120),
-        padding: EdgeInsets.only(left: 100),
-        alignment: Alignment.centerLeft,
-        color: Colors.greenAccent,
+      return SafeArea (
+      child: Scaffold(
+      backgroundColor: Colors.green,
+    body: Row(
+      children: [
+        Container(
+      width: 100.0, height: double.maxFinite,color: Colors.red,
+    ),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Container(
+              width: 100.0,height: 100.0,color: Colors.blue,
+            ),
+            Container(
+              width: 100.0,height: 100.0,color: Colors.blue,
+            )
+          ],
+        ),
+    ],
+    )
       ),
 
       // appBar: AppBar(
@@ -31,8 +42,6 @@ class EjemploLayout extends StatelessWidget {
       // backgroundColor: Colors.yellow,
       // body: Center(
       //     child: Image.asset('assets/imagenes/FotoEjercicio-200x300.jpg')),
-
-
     );
   }
 }
