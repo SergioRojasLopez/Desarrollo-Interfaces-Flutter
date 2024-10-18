@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_first_app/ejercicio6.dart';
 import 'package:flutter_first_app/ejemploLayout.dart';
 import 'package:flutter_first_app/ejercicio2.dart';
 import 'package:flutter_first_app/ejercicio3.dart';
+import 'package:flutter_first_app/ejercicio4.dart';
+import 'package:flutter_first_app/ejercicio7.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +37,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Ejercicio3(),
+      home: const Ejercicio7(),
     );
   }
 }
