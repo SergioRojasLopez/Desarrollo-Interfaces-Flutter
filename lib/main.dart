@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_first_app/composing_card.dart';
+import 'package:flutter_first_app/ejemplo_boxdecoration.dart';
+import 'package:flutter_first_app/ejemplo_textbutton.dart';
 import 'package:flutter_first_app/ejercicio6.dart';
 import 'package:flutter_first_app/ejemploLayout.dart';
 import 'package:flutter_first_app/ejercicio2.dart';
@@ -37,7 +40,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Ejercicio7(),
+      home: const ComposingCard()
     );
   }
 }
