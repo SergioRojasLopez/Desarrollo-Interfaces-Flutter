@@ -33,14 +33,14 @@ class _EjemploListviewsState extends State<EjemploListviews> {
       },
       separatorBuilder: (context, index) {
         Color colorLine = Colors.amber;
-        DateTime
-        if (dayWeeks[0] == hoy) {
+
+        if (dayWeeks[0] == 0) {
           colorLine = Colors.blueGrey;
-          thickLine = 10;
+          //thickLine = 10;
         }
         return Divider(
           color: colorLine,
-          thickness: thickLine,
+          //thickness: thickLine,
         );
       },
     );
