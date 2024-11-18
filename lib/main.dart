@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_first_app/Scrolling/scrolling.dart';
+import 'package:flutter_first_app/Scrolling/example_scroll.dart';
 import 'package:flutter_first_app/composing_card.dart';
 import 'package:flutter_first_app/Routing/ejemploRouting.dart';
 import 'package:flutter_first_app/ejemplo_boxdecoration.dart';
@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Scrolling()
+      home: const ExampleScroll()
     );
   }
 }
