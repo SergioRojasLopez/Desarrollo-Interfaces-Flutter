@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_first_app/Grid/ajedrez.dart';
+import 'package:flutter_first_app/Grid/example_grid.dart';
 import 'package:flutter_first_app/Scrolling/example_scroll.dart';
 import 'package:flutter_first_app/composing_card.dart';
 import 'package:flutter_first_app/Routing/ejemploRouting.dart';
@@ -43,7 +45,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ExampleScroll()
+      home: const Ajedrez()
     );
   }
 }
