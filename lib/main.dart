@@ -1,18 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_first_app/Grid/ajedrez.dart';
-import 'package:flutter_first_app/Grid/example_grid.dart';
-import 'package:flutter_first_app/Scrolling/example_scroll.dart';
-import 'package:flutter_first_app/composing_card.dart';
-import 'package:flutter_first_app/Routing/ejemploRouting.dart';
-import 'package:flutter_first_app/ejemplo_boxdecoration.dart';
-import 'package:flutter_first_app/Listas/ejemplo_listviews.dart';
-import 'package:flutter_first_app/ejemplo_textbutton.dart';
-import 'package:flutter_first_app/ejercicio6.dart';
-import 'package:flutter_first_app/ejemploLayout.dart';
-import 'package:flutter_first_app/ejercicio2.dart';
-import 'package:flutter_first_app/ejercicio3.dart';
-import 'package:flutter_first_app/ejercicio4.dart';
-import 'package:flutter_first_app/ejercicio7.dart';
+import 'package:flutter_first_app/Ejercicios/ejercicioClaseLista.dart';
+import 'package:flutter_first_app/Gestures/example_gestures_class.dart';
+import 'package:flutter_first_app/Gestures/main_point_gestures.dart';
+
+import 'Gestures/example_gestures_class_dismissible.dart';
 
 void main() {
   runApp(const MyApp());
@@ -45,7 +36,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Ajedrez()
+      home: const ExampleGesturesClass2()
     );
   }
 }
